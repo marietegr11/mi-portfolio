@@ -1,93 +1,73 @@
 export const personalInfo = {
-  name: "Rishikesh S",
-  location: "Coimbatore, India",
-  email: "rkesh2003@gmail.com",
-  github: "https://github.com/rishikesh2003",
-  linkedin: "https://www.linkedin.com/in/rishikeshs/",
+  name: "Mario Guerra Rodríguez",
+  location: "Madrid, España",
+  email: "marioguerraa8@gmail.com",
+  github: "https://github.com/marietegr11",
+  linkedin: "https://www.linkedin.com/in/mario-guerra-rodríguez11/",
 };
 
 export const workExperience = [
   {
-    company: "Chatbyte GmbH",
+    company: "Creast - Click & Shoot Green",
     location: "Remote",
-    position: "Software Engineer",
-    period: "Mar 2024 - Present",
+    position: "Software Developer",
+    period: "Feb 2024 - Jul 2024",
     achievements: [
-      "Designed and implemented business logic for AWS Lambdas using the Serverless Framework, forming the backbone of the application's functionality and ensuring seamless backend operations.",
-      "Built a comprehensive admin panel for managing content, user data, and analytics.",
-      "Contributed to the development and integration of a scalable CMS for managing blog content and other platform data.",
-      "Reduced database costs by introducing materialized views, optimizing query performance and resource usage.",
-      "Drove the integration of a custom affiliate marketing system, enabling seamless tracking and reporting of referrals and user activities.",
-      "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
-      "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
+      "RESTful API design and development",
+      "Authentication and Security",
+      "Complex relationship management",
+      "Query optimization"
     ],
   },
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Helphone",
+    location: "Hybrid (Madrid, Spain)",
+    position: "Software Developer",
+    period: "Mar 2022 - Jun 2022",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Development of web pages (SPA) using Blazor and C#",
+      "API and external services integration",
+      "Optimization of application performance and security"
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "Zara & Atlético de Madrid",
+    location: "Madrid, Spain",
+    position: "Customer Service",
+    period: "Dec 2019 - Nov 2023",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Sales and customer service",
+      "Fulfillment of KPI's",
+      "Collections and returns", 
+      "Warehouse management", 
+      "Labeling, counting and placement of the store."
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
-    achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
-    ],
+    institution: "IMF Smart Education",
+    location: "Madrid, Spain",
+    degree: "Superior Degree in Multiplatform Application Development",
+    period: "Sep 2020 - Jun 2022",
   },
 ];
 export const skills = {
   programmingLanguages: [
-    "TypeScript",
-    "JavaScript",
     "Python",
     "C++",
     "Java",
-    "Solidity",
+    "PHP",
   ],
-  frontendDevelopment: [
-    "Nextjs",
-    "Reactjs",
-    "React Native",
-    "Shadcn UI",
-    "Tailwind CSS",
-    "HTML",
-    "CSS",
+  siem: [
+    "ELK Stack",
+    "Splunk"
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
-  ],
+  network: ["Tshark", "Wireshark", "Nmap"],
+  databaseAndStorage: ["SQL", "MySQL", "Postgres"],
+  forensics: ["Volatility", "Autopsy", "Velociraptor", "FTK Imager", "ALEAPP"],
+  
 };
 
 export const projects = [
@@ -116,53 +96,29 @@ export const projects = [
 ];
 
 export const awards = [
+  
   {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
+    name: "Videogame Competition 2022",
+    issuer: "IMF Smart Education",
     date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
+    position: "Winner",
   },
 ];
+
+export const certi = [
+  {
+    institution: "Cisco Network Academy",
+    degree: "Introduction to Cybersecurity",
+    period: "Jun 2024 - Jul 2024",
+  },
+  {
+    institution: "TryHackMe",
+    degree: "SOC 1",
+    period: "Sep 2024 - Dec 2024",
+  },
+  {
+    institution: "Coursera",
+    degree: "Cybersecurity Analyst by Google",
+    period: "Jan 2025 - Mar 2025",
+  },
+]
